@@ -1,0 +1,33 @@
+
+.navbar {
+    background-color: #3498db; /* Bright blue background color */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the navbar title */
+  .navbar h1 {
+    color: #ffffff; /* White color for the title */
+    margin: 0;
+  }
+  
+  /* Styles for the links in the navbar */
+  .navbar .links {
+    margin-top: 10px;
+  }
+  
+  .navbar .links a {
+    color: #ffffff; /* White color for the links */
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+  }
+  
+  .navbar .links a:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

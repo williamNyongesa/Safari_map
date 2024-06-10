@@ -1,0 +1,37 @@
+/* App.css */
+
+/* General styles for the App component */
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #ffffff; /* Brighter background color */
+  padding: 20px;
+}
+
+/* Styles for the content area */
+.content {
+  background-color: #f9f9f9; /* Slightly lighter background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slightly larger shadow */
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+/* Styles for the title */
+.content h1 {
+  color: #2c3e50; /* Brighter color for the title */
+  font-size: 2.5em; /* Slightly larger font size */
+  margin-bottom: 20px;
+}
+
+/* Styles for the anchor link */
+.content a {
+  color: #3498db; /* Brighter blue color */
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.content a:hover {
+  text-decoration: underline;
+}
